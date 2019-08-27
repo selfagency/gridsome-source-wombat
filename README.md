@@ -27,7 +27,7 @@ export default {
         apiUrl: 'http://localhost:3000',
         contentTypes: [
           { name: 'home', type: 'entity' },
-          { name: 'blog', type: 'collection' }
+          { name: 'el-blogo', type: 'collection', lang: 'es' }
         ]
       }
     }

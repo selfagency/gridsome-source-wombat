@@ -9,7 +9,7 @@ module.exports = (api, options) => {
         const typeName = makeTypeName(resource.name)
         let contentType = addContentType({ typeName })
 
-        const data = await query(apiUrl, { title: resource.name, type: resource.type, lang: resource.lang })
+        const data = await query(apiUrl, { name: resource.name, type: resource.type, lang: resource.lang })
         data.map(d => {
           const content = {},
             fields = {}
