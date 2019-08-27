@@ -6,14 +6,14 @@
   </a>
 </p>
 
-> Gridsome source plugin for Wombat
+> Gridsome source plugin for [Wombat](https://github.com/SnowdogApps/wombat), the flat-file headless CMS
 
 ### 🏠 [Homepage](https://gitlab.com/selfagency/gridsome-source-wombat#readme)
 
 ## Install
 
 ```sh
-yarn add gridsome-source-project
+yarn add gridsome-source-wombat
 ```
 
 ## Usage
