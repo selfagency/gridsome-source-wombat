@@ -1,0 +1,58 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": [
+    "stylelint-prettier",
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-empty-line-before": ["always", {
+      "except": ["blockless-after-blockless", "first-nested"],
+      "ignore": ["inside-block"]
+    }],
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["include", "if", "content", "mixin", "each", "else", "else if", "extend"]
+    }],
+    "at-rule-no-vendor-prefix": true,
+    "block-closing-brace-newline-after": ["always", {
+      "ignoreAtRules": ["if", "else"]
+    }],
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "color-named": "never",
+    "comment-empty-line-before": "always",
+    "comment-whitespace-inside": "always",
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-space-after": "always",
+    "declaration-colon-space-before": "never",
+    "font-family-name-quotes": "always-where-recommended",
+    "function-url-quotes": "always",
+    "indentation": 2,
+    "media-feature-colon-space-after": "always",
+    "media-feature-colon-space-before": "never",
+    "media-feature-name-no-vendor-prefix": true,
+    "media-feature-parentheses-space-inside": "never",
+    "media-feature-range-operator-space-after": "always",
+    "media-feature-range-operator-space-before": "always",
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": true,
+    "number-leading-zero": "always",
+    "prettier/prettier": true,
+    "property-no-vendor-prefix": true,
+    "rule-empty-line-before": ["always-multi-line", {
+      "except": ["first-nested"]
+    }],
+    "scss/at-else-closing-brace-newline-after": "always-last-in-chain",
+    "scss/at-else-closing-brace-space-after": "always-intermediate",
+    "scss/at-else-empty-line-before": "never",
+    "selector-attribute-brackets-space-inside": "never",
+    "selector-attribute-operator-space-after": "never",
+    "selector-attribute-operator-space-before": "never",
+    "selector-attribute-quotes": "always",
+    "selector-combinator-space-after": "always",
+    "selector-no-vendor-prefix": true,
+    "selector-pseudo-class-parentheses-space-inside": "never",
+    "selector-pseudo-element-colon-notation": "single",
+    "string-quotes": "single",
+    "value-no-vendor-prefix": true
+  }
+}

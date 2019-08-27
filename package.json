@@ -1,0 +1,45 @@
+{
+  "name": "gridsome-source-wombat",
+  "version": "0.1.0",
+  "description": "Gridsome source plugin for Wombat",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/selfagency/gridsome-source-wombat.git"
+  },
+  "keywords": [
+    "gridsome",
+    "wombat"
+  ],
+  "author": "Daniel Sieradski <hello@self.agency>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/selfagency/gridsome-source-wombat/issues"
+  },
+  "homepage": "https://gitlab.com/selfagency/gridsome-source-wombat#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "debugment": "^1.0.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-prettier": "^1.1.1",
+    "stylelint-scss": "^3.9.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "validate": "^4.5.1"
+  }
+}
