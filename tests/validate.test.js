@@ -5,7 +5,7 @@ let i = 0
 const x = 3
 
 while (i <= x) {
-  data[i] = require(`../data/test${'0' + (i + 1)}.json`)
+  data[i] = require(`./data/test${'0' + (i + 1)}.json`)
   i++
 }
 
